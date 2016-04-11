@@ -1,0 +1,23 @@
+{
+  "_npmUser": {
+    "email": "psmichalek@gmail.com",
+    "name": "psmichalek"
+  },
+  "name": "ev-refresh-cf",
+  "version": "0.0.2",
+  "description": "Module used for refreshing coldfusion template and component cache along with doing Rest initialization on specified EV environment (dev,test,stage)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Paul Samuel Michalek",
+  "license": "MIT",
+  "dependencies": {
+    "fs-json": "^0.1.2",
+    "lodash": "^4.6.1",
+    "moment": "^2.12.0",
+    "q": "^1.4.1",
+    "request-promise": "^2.0.1",
+    "shelljs": "^0.6.0"
+  }
+}
